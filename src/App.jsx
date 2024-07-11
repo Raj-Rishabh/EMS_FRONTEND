@@ -9,7 +9,7 @@ import SignupForm from '../components/SignupPage/SignUp'
 
 function App() {
   const { pathname } = useLocation();
-  const showNav = !['/signUp', '/login'].includes(pathname);
+  const showNav = !['/signUp', '/'].includes(pathname);
   return (
     <div>
       { showNav && <NavBar/> }
