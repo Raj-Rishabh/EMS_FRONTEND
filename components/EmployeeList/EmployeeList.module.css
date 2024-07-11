@@ -1,0 +1,36 @@
+.bod {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80%;
+  margin-top: 20px;
+  gap: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.btn {
+  height: 35px;
+  margin-left: 5px;
+  padding: 0.5rem;
+  background-color: #5a77df;
+  border-radius: 10px;
+  font-size: 15px;
+  border: 1px solid black;
+  cursor: pointer;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #6e88e6;
+}
+
+.count{
+  font-weight: bolder;
+}
+.inp{
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 50%;
+  height: 30px;
+  text-align: center;
+}
