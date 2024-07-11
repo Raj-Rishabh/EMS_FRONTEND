@@ -30,7 +30,7 @@ export default function SignupForm() {
       body: JSON.stringify({ ...formData }),
     }).then(res => {
       if (res.ok) {
-          return res.json(); 
+          navigate("/"); 
       } else {
           throw new Error('Invalid Username/Password'); 
       }
