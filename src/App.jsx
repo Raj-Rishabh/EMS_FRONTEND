@@ -18,7 +18,7 @@ function App() {
         <Route path="/employeeList" element={<EmployeeList />}/>
         <Route path="/employee/" element={<EForm/>}/>
         <Route path="/employee/:id" element={<EForm/>}/>
-        <Route path="/login" element={<Form/>}/>
+        <Route path="/" element={<Form/>}/>
         <Route path="/signUp" element={<SignupForm/>}/>
       </Routes>
     </div>
