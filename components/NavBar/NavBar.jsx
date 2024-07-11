@@ -14,7 +14,7 @@ export default function NavBar() {
         <h3 className={styles.navC} onClick={() => navigate('/dashboard')}>Home</h3>
         <h3 className={styles.navC} onClick={() => navigate('/employeeList')}>Employee List</h3>
         <h3 className={styles.name}>{name}</h3>
-        <h3 className={styles.navC} onClick={() => navigate('/login')}>Logout</h3>
+        <h3 className={styles.navC} onClick={() => navigate('/')}>Logout</h3>
       </div>
     
   );
