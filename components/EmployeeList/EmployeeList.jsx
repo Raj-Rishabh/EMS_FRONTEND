@@ -59,5 +59,3 @@ export default function EmployeeList() {
   );
 }
 
-
-"https://ems-backend-xj9t.onrender.com/employees/")
